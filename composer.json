@@ -1,10 +1,16 @@
 {
     "name": "drh2so4/doctype_admin",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Laravel 7 Admin Panel for lazy developers. Contains User Management, Roles and Permission Management, Activity Logging",
     "keywords": [
-        "framework",
-        "laravel"
+        "doctype nepal",
+        "doctypenepal",
+        "doctype admin",
+        "doctype admin panel",
+        "drh2so4",
+        "pratiksh404",
+        "pratikshrestha",
+        "pratik shrestha"
     ],
     "license": "MIT",
     "require": {
