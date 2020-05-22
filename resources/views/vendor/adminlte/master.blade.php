@@ -67,6 +67,14 @@
 <script src="{{ mix('js/app.js') }}"></script>
 @endif
 @yield('load_js')
-
+<script>
+    @if (!empty($errors))
+    @if(count($errors) > 0)
+     @foreach($errors->all() as $error)
+         toastr.error("{{ $error }}");
+     @endforeach
+    @endif
+@endif
+</script>
 </body>
 </html>
