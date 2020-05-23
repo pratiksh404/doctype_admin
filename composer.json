@@ -1,6 +1,7 @@
 {
     "name": "drh2so4/doctype_admin",
     "type": "project",
+    "version": "1.0.0",
     "description": "Laravel 7 Admin Panel for lazy developers. Contains User Management, Roles and Permission Management, Activity Logging",
     "keywords": [
         "doctype nepal",
@@ -10,7 +11,16 @@
         "drh2so4",
         "pratiksh404",
         "pratikshrestha",
-        "pratik shrestha"
+        "pratik shrestha",
+        "laravel",
+        "admin-dashboard",
+        "admin-panel",
+        "starter-kit",
+        "laravel-starter-kit",
+        "laravel-admin-panel",
+        "laravel-admin",
+        "doctype-admin-panel",
+        "laravel-admin"
     ],
     "license": "MIT",
     "require": {
