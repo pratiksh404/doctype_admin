@@ -1,79 +1,129 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+![Doctype Admin](https://github.com/pratiksh404/doctype_admin/blob/master/screenshot/doctype_admin.png)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Laravel 7 Admin Panel for lazy developers.
 
-## About Laravel
+#### Contains : -
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+-   User Management
+-   Role and Permission Management
+-   Activity Management
+-   Auth Management
+-   Plugin Extensions
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Installation
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Run Composer Require Command
 
-## Learning Laravel
+```sh
+$ composer require drh2so4/doctype_admin
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+or
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```sh
+git clone https://github.com/pratiksh404/doctype_admin.git
+```
 
-## Laravel Sponsors
+Install Composer Dependencies
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+```sh
+composer install
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-- [云软科技](http://www.yunruan.ltd/)
+Create a copy of your .env file
 
-## Contributing
+```sh
+cp .env.example .env
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Generate an app encryption key
 
-## Code of Conduct
+```sh
+php artisan key:generate
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Create an empty database for our application and set yo environment variable in .env file
 
-## Security Vulnerabilities
+```sh
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=doctype_admin
+DB_USERNAME=root
+DB_PASSWORD=
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Then migrate the database.
+Go on the console and type..
+
+```sh
+php artisan migrate --seed
+```
+
+This allows you to have necessary login credential
+
+> Admin Credential
+> email : admin@admin.com
+> password: admin123
+
+> User Credential
+> email : user@user.com
+> password: user123
+
+## Packages
+
+| Package | Description                          | Link                                              | Command                             |
+| ------- | ------------------------------------ | ------------------------------------------------- | ----------------------------------- |
+| Blog    | Blog Package for Doctype Admin Panel | https://github.com/pratiksh404/doctype_admin_blog | composer require doctype_admin/blog |
+
+## Model Scopes
+
+| Scopes                           | Description                                                                                      |
+| -------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Model::getLatestAll()            | Retrive data orderd by updated_at timestamp in ascending order                                   |
+| Model::getLatestLimit(\$limit)   | This scope expects parameter $limit which return $limit number of data                           |
+| Model::todayData()               | Retrives today's data                                                                            |
+| Model::weekData()                | Retrives week data                                                                               |
+| Model::weekDataLimit(\$limit)    | Retrives week \$limit number of data                                                             |
+| Model::monthData()               | Retrives month data                                                                              |
+| Model::MonthDataLimit(\$limit)   | Retrives month \$limit number of data                                                            |
+| Model::yearData()                | Retrives month data                                                                              |
+| Model::yearDataLimit(\$limit)    | Retrives year \$limit number of data                                                             |
+| Model::tillNowFrom(\$date)       | Retrives data from \$date till now                                                               |
+| Model::dataBetween($from,$to)    | Retrives data $from date to $to date                                                             |
+| Model::dataNotBetween($from,$to) | Doesn't retrives data $from date to $to date                                                     |
+| Model::asc()                     | Ascending Ordered Data                                                                           |
+| Model::desc()                    | Descending Ordered Data                                                                          |
+| Model::whereFilter(array)        | Return multiple where condition data where key is field and value is condition matching value    |
+| Model::orWhereFilter(array)      | Return multiple or where condition data where key is field and value is condition matching value |
+
+### Admin Panel Screenshot
+
+![Doctype Admin](https://github.com/pratiksh404/doctype_admin/blob/master/screenshot/login.jpg)
+![Doctype Admin](https://github.com/pratiksh404/doctype_admin/blob/master/screenshot/register.jpg)
+![Doctype Admin](https://github.com/pratiksh404/doctype_admin/blob/master/screenshot/all_user.jpg)
+![Doctype Admin](https://github.com/pratiksh404/doctype_admin/blob/master/screenshot/create_user.jpg)
+![Doctype Admin](https://github.com/pratiksh404/doctype_admin/blob/master/screenshot/roles.jpg)
+![Doctype Admin](https://github.com/pratiksh404/doctype_admin/blob/master/screenshot/activity.jpg)
+
+### Todos
+
+-Extension Install Menu
+-More Functionality
+-Improved Roles and Permission
+-Maintainabilty
+-Better UI
+
+## Package Used
+
+-   https://github.com/rtconner/laravel-tagging
+-   https://github.com/jeremykenedy/laravel-users
+-   https://github.com/jeremykenedy/laravel-roles
+-   https://github.com/jeremykenedy/laravel-logger
+-   https://github.com/jeroennoten/Laravel-AdminLTE
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+MIT
+
+**DOCTYPE NEPAL ||DR.H2SO4**
