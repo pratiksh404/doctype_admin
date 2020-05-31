@@ -12,14 +12,6 @@
 
 ### Installation
 
-Run Composer Require Command
-
-```sh
-$ composer require drh2so4/doctype_admin
-```
-
-or
-
 ```sh
 git clone https://github.com/pratiksh404/doctype_admin.git
 ```
