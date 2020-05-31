@@ -65,6 +65,8 @@ This allows you to have necessary login credential
 > email : user@user.com
 > password: user123
 
+## Note
+
 ## Packages
 
 | Package | Description                          | Link                                              | Command                             |

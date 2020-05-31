@@ -1,4 +1,5 @@
-<div class="modal fade modal-danger" id="confirmDelete" role="dialog" aria-labelledby="confirmDeleteLabel" aria-hidden="true" tabindex="-1">
+<div class="modal fade modal-danger" id="confirmDelete" role="dialog" aria-labelledby="confirmDeleteLabel"
+    aria-hidden="true" tabindex="-1">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -16,8 +17,10 @@
                 </p>
             </div>
             <div class="modal-footer">
-                {!! Form::button(trans('laravelusers::modals.delete_user_btn_cancel'), array('class' => 'btn btn-light pull-left', 'type' => 'button', 'data-dismiss' => 'modal' )) !!}
-                {!! Form::button(trans('laravelusers::modals.delete_user_btn_confirm'), array('class' => 'btn btn-danger pull-right btn-flat', 'type' => 'button', 'id' => 'confirm' )) !!}
+                {!! Form::button(trans('laravelusers::modals.delete_user_btn_cancel'), array('class' => 'btn btn-light
+                pull-left', 'type' => 'submit', 'data-dismiss' => 'modal' )) !!}
+                {!! Form::button(trans('laravelusers::modals.delete_user_btn_confirm'), array('class' => 'btn btn-danger
+                pull-right btn-flat', 'type' => 'submit', 'id' => 'confirm' )) !!}
             </div>
         </div>
     </div>

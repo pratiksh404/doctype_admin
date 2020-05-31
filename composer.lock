@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "392d6bc554506181d8328bfd0248f1a2",
+    "content-hash": "5f4b8c874cbc981303bec83dd311dc54",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -921,16 +921,16 @@
         },
         {
             "name": "jeremykenedy/laravel-logger",
-            "version": "v3.3.0",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeremykenedy/laravel-logger.git",
-                "reference": "eff56b3b7b33bd3066c12af88ef937d0130b343e"
+                "reference": "40749ba4313747824c57f91b62665c5191831ba8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeremykenedy/laravel-logger/zipball/eff56b3b7b33bd3066c12af88ef937d0130b343e",
-                "reference": "eff56b3b7b33bd3066c12af88ef937d0130b343e",
+                "url": "https://api.github.com/repos/jeremykenedy/laravel-logger/zipball/40749ba4313747824c57f91b62665c5191831ba8",
+                "reference": "40749ba4313747824c57f91b62665c5191831ba8",
                 "shasum": ""
             },
             "require": {
@@ -951,7 +951,7 @@
                     "jeremykenedy\\LaravelLogger\\": "src/"
                 },
                 "files": [
-                    "src/app/Logic/helpers.php"
+                    "src/App/Logic/helpers.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -972,20 +972,30 @@
                 "Laravel log",
                 "laravel logger"
             ],
-            "time": "2020-04-26T07:01:26+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/jeremykenedy",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/jeremykenedy",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-05-23T23:05:43+00:00"
         },
         {
             "name": "jeremykenedy/laravel-roles",
-            "version": "v3.0.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeremykenedy/laravel-roles.git",
-                "reference": "66550715683ece36814ddbdf18e0f69f526196bb"
+                "reference": "8b2cae140998d4baf66373c9cd5c6d7cf6143b1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeremykenedy/laravel-roles/zipball/66550715683ece36814ddbdf18e0f69f526196bb",
-                "reference": "66550715683ece36814ddbdf18e0f69f526196bb",
+                "url": "https://api.github.com/repos/jeremykenedy/laravel-roles/zipball/8b2cae140998d4baf66373c9cd5c6d7cf6143b1a",
+                "reference": "8b2cae140998d4baf66373c9cd5c6d7cf6143b1a",
                 "shasum": ""
             },
             "require": {
@@ -995,10 +1005,10 @@
                 "php": "^7.2"
             },
             "require-dev": {
-                "illuminate/support": "^5.8",
-                "laravel/laravel": "5.8.*",
-                "orchestra/testbench": "~3.0",
-                "phpunit/phpunit": "^7.5"
+                "illuminate/support": "^7.12",
+                "laravel/laravel": "^7.12",
+                "laravel/tinker": "^2.4",
+                "orchestra/testbench": "^5.2"
             },
             "type": "package",
             "extra": {
@@ -1027,7 +1037,7 @@
                     "email": "jeremykenedy@gmail.com"
                 }
             ],
-            "description": "Powerful package for handling roles, permissions, and levels in Laravel. Supports Laravel 5.3 and higher",
+            "description": "A Powerful package for handling roles and permissions in Laravel. Supports Laravel 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 6.0, and 7.0.",
             "keywords": [
                 "acl",
                 "laravel",
@@ -1040,24 +1050,28 @@
             ],
             "funding": [
                 {
+                    "url": "https://github.com/jeremykenedy",
+                    "type": "github"
+                },
+                {
                     "url": "https://www.patreon.com/jeremykenedy",
                     "type": "patreon"
                 }
             ],
-            "time": "2020-03-03T20:12:35+00:00"
+            "time": "2020-05-30T22:34:23+00:00"
         },
         {
             "name": "jeremykenedy/laravel-users",
-            "version": "v4.1.0",
+            "version": "v4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeremykenedy/laravel-users.git",
-                "reference": "2c23f7bf498bf4722558765da8904a38a783524a"
+                "reference": "37f0ead37320771a4ac4b05b082f06f7634123aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeremykenedy/laravel-users/zipball/2c23f7bf498bf4722558765da8904a38a783524a",
-                "reference": "2c23f7bf498bf4722558765da8904a38a783524a",
+                "url": "https://api.github.com/repos/jeremykenedy/laravel-users/zipball/37f0ead37320771a4ac4b05b082f06f7634123aa",
+                "reference": "37f0ead37320771a4ac4b05b082f06f7634123aa",
                 "shasum": ""
             },
             "require": {
@@ -1065,10 +1079,10 @@
                 "php": ">=7.1.3"
             },
             "require-dev": {
-                "illuminate/support": "^5.7",
-                "laravel/laravel": "5.7.*",
-                "orchestra/testbench": "~3.0",
-                "phpunit/phpunit": "^7.0"
+                "illuminate/support": "^7.12",
+                "laravel/laravel": "^7.12",
+                "laravel/tinker": "^2.4",
+                "orchestra/testbench": "^5.2"
             },
             "type": "package",
             "extra": {
@@ -1100,7 +1114,7 @@
                 "laravel",
                 "management"
             ],
-            "time": "2020-04-26T06:58:10+00:00"
+            "time": "2020-05-22T18:22:43+00:00"
         },
         {
             "name": "jeroennoten/laravel-adminlte",

@@ -81,7 +81,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'disableRoutes' => env('LARAVEL_LOGGER_DISABLE_ROUTES', true),
+    'disableRoutes' => env('LARAVEL_LOGGER_DISABLE_ROUTES', false),
 
     /*
     |--------------------------------------------------------------------------

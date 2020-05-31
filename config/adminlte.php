@@ -228,14 +228,14 @@ return [
                     'icon'    => 'fas fa-user',
                     'submenu' => [
                         [
-                          'text' => 'All Users',
-                          'icon' => 'fas fa-users',
-                          'url' => 'admin/users'
+                            'text' => 'All Users',
+                            'icon' => 'fas fa-users',
+                            'url' => 'users'
                         ],
                         [
-                          'text' => 'Create User',
-                          'icon' => 'fas fa-user-plus',
-                          'url' => 'admin/users/create'
+                            'text' => 'Create User',
+                            'icon' => 'fas fa-user-plus',
+                            'url' => 'users/create'
                         ],
                     ],
                 ],
@@ -243,22 +243,22 @@ return [
                     'text' => 'Role/Permission',
                     'icon' => 'fas fa-user-shield',
                     'submenu' => [
-                            [
-                                'text' => 'Roles',
-                                'icon' => 'fas fa-user-lock',
-                                'url' => 'admin/roles',
-                            ],
-                            [
-                                'text' => 'Permissions',
-                                'icon' => 'fas fa-user-check',
-                                'url' => 'admin/permissions',
-                            ]
+                        [
+                            'text' => 'Roles',
+                            'icon' => 'fas fa-user-lock',
+                            'url' => 'roles',
+                        ],
+                        [
+                            'text' => 'Permissions',
+                            'icon' => 'fas fa-user-check',
+                            'url' => 'permissions',
+                        ]
                     ]
                 ],
                 [
                     'text' => 'Activity Log',
                     'icon' => 'fas fa-book',
-                    'url' => 'admin/activity'
+                    'url' => 'activity'
                 ]
             ],
         ],
