@@ -15,14 +15,6 @@
 
 ### Installation
 
-Run Composer Require Command
-
-```sh
-$ composer require drh2so4/doctype_admin
-```
-
-or
-
 ```sh
 git clone https://github.com/pratiksh404/doctype_admin.git
 ```
@@ -111,11 +103,11 @@ This allows you to have necessary login credential
 
 ### Todos
 
--Extension Install Menu
--More Functionality
--Improved Roles and Permission
--Maintainabilty
--Better UI
+-   Extension Install Menu
+-   More Functionality
+-   Improved Roles and Permission
+-   Maintainabilty
+-   Better UI
 
 ## Package Used
 
