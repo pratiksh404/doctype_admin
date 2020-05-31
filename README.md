@@ -1,5 +1,8 @@
 ![Doctype Admin](https://github.com/pratiksh404/doctype_admin/blob/master/screenshot/doctype_admin.png)
 
+[![Issues](https://img.shields.io/github/issues/pratiksh404/doctype_admin)](https://github.com/pratiksh404/doctype_admin_blog/issues)
+[![Stars](https://img.shields.io/github/stars/pratiksh404/doctype_admin)](https://github.com/pratiksh404/doctype_admin_blog/stargazers)
+
 ## Laravel 7 Admin Panel for lazy developers.
 
 #### Contains : -
@@ -11,6 +14,14 @@
 -   Plugin Extensions
 
 ### Installation
+
+Run Composer Require Command
+
+```sh
+$ composer require drh2so4/doctype_admin
+```
+
+or
 
 ```sh
 git clone https://github.com/pratiksh404/doctype_admin.git
