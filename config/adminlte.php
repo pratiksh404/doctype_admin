@@ -387,11 +387,6 @@ return [
                     'location' => 'vendor/selectize/js/selectize.min.js',
                 ],
                 [
-                    'type' => 'js',
-                    'asset' => true,
-                    'location' => 'vendor/selectize/js/custom_selectize.js',
-                ],
-                [
                     'type' => 'css',
                     'asset' => true,
                     'location' => 'vendor/selectize/css/selectize.default.css',
