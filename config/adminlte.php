@@ -262,6 +262,11 @@ return [
                 ]
             ],
         ],
+        [
+            'text' => 'plugins',
+            'icon' => 'fas fa-plug',
+            'url' => 'admin/plugin'
+        ],
         ['header' => 'labels'],
         [
             'text'       => 'important',
