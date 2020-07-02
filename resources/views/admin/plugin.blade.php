@@ -8,6 +8,7 @@
 
 @section('content')
 <div class="row">
-    @include('documentation.plugin')
+    @include('documentation.blog_plugin')
+    @include('documentation.setting_plugin')
 </div>
 @stop
