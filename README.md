@@ -1,7 +1,6 @@
 ![Doctype Admin](https://github.com/pratiksh404/doctype_admin/blob/master/screenshot/doctype_admin.png)
 
-[![Issues](https://img.shields.io/github/issues/pratiksh404/doctype_admin)](https://github.com/pratiksh404/doctype_admin_blog/issues)
-[![Stars](https://img.shields.io/github/stars/pratiksh404/doctype_admin)](https://github.com/pratiksh404/doctype_admin_blog/stargazers)
+[![Issues](https://img.shields.io/github/issues/pratiksh404/doctype_admin)](https://github.com/pratiksh404/doctype_admin_blog/issues)[![Stars](https://img.shields.io/github/stars/pratiksh404/doctype_admin)](https://github.com/pratiksh404/doctype_admin_blog/stargazers)[![License](https://img.shields.io/github/license/pratiksh404/doctype_admin)](https://github.com/pratiksh404/doctype_admin/blob/master/LICENSE)
 
 ## Laravel 7 Admin Panel for lazy developers.
 
