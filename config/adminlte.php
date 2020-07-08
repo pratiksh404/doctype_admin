@@ -265,7 +265,10 @@ return [
         [
             'text' => 'plugins',
             'icon' => 'fas fa-plug',
-            'url' => 'admin/plugin'
+            'url' => 'admin/plugin',
+            /*  'role' => [
+                'admin','user'
+            ] */ // menu role file example
         ],
         ['header' => 'labels'],
         [
@@ -300,9 +303,10 @@ return [
         JeroenNoten\LaravelAdminLte\Menu\Filters\ActiveFilter::class,
         JeroenNoten\LaravelAdminLte\Menu\Filters\SubmenuFilter::class,
         JeroenNoten\LaravelAdminLte\Menu\Filters\ClassesFilter::class,
-        JeroenNoten\LaravelAdminLte\Menu\Filters\GateFilter::class,
+        /*  JeroenNoten\LaravelAdminLte\Menu\Filters\GateFilter::class, */
         JeroenNoten\LaravelAdminLte\Menu\Filters\LangFilter::class,
         JeroenNoten\LaravelAdminLte\Menu\Filters\DataFilter::class,
+        App\Filters\MenuRoleFilter::class
     ],
 
     /*
