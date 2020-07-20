@@ -10,5 +10,6 @@
 <div class="row">
     @include('documentation.blog_plugin')
     @include('documentation.setting_plugin')
+    @include('documentation.landing_plugin')
 </div>
 @stop

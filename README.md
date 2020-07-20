@@ -68,10 +68,11 @@ This allows you to have necessary login credential
 
 ## Packages
 
-| Package | Description                          | Link                                                  | Command                                 |
-| ------- | ------------------------------------ | ----------------------------------------------------- | --------------------------------------- |
-| Blog    | Blog Package for Doctype Admin Panel | https://github.com/pratiksh404/doctype_admin_blog     | composer require doctype_admin/blog     |
-| Setting | Settings Package                     | https://github.com/pratiksh404/doctype_admin_settings | composer require doctype_admin/Settings |
+| Package      | Description                          | Link                                                  | Command                                     |
+| ------------ | ------------------------------------ | ----------------------------------------------------- | ------------------------------------------- |
+| Blog         | Blog Package for Doctype Admin Panel | https://github.com/pratiksh404/doctype_admin_blog     | composer require doctype_admin/blog         |
+| Setting      | Settings Package                     | https://github.com/pratiksh404/doctype_admin_settings | composer require doctype_admin/Settings     |
+| Landing Page | Planding Page Package                | https://github.com/pratiksh404/doctype_landing_page   | composer require doctype_admin/landing_page |
 
 ## Model Scopes
 

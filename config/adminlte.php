@@ -419,6 +419,22 @@ return [
             ],
         ],
         [
+            'name' => 'ColorPicker',
+            'active' => true,
+            'files' => [
+                [
+                    'type' => 'js',
+                    'asset' => true,
+                    'location' => 'plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js',
+                ],
+                [
+                    'type' => 'css',
+                    'asset' => true,
+                    'location' => 'plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css',
+                ],
+            ],
+        ],
+        [
             'name' => 'Chartjs',
             'active' => false,
             'files' => [
