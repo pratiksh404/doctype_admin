@@ -106,7 +106,7 @@ return [
     'classes_brand_text' => '',
     'classes_content_header' => '',
     'classes_content' => '',
-    'classes_sidebar' => 'sidebar-white-primary elevation-4',
+    'classes_sidebar' => 'sidebar-light-primary elevation-4',
     'classes_sidebar_nav' => '',
     'classes_topnav' => 'navbar-white navbar-light',
     'classes_topnav_nav' => 'navbar-expand-md',
