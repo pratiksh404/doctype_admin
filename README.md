@@ -74,6 +74,10 @@ This allows you to have necessary login credential
 | Setting      | Settings Package                     | https://github.com/pratiksh404/doctype_admin_settings | composer require doctype_admin/Settings     |
 | Landing Page | Planding Page Package                | https://github.com/pratiksh404/doctype_landing_page   | composer require doctype_admin/landing_page |
 
+### Integrable Plugins
+
+![Doctype Admin](https://github.com/pratiksh404/doctype_admin/blob/master/screenshot/plugin.jpg)
+
 ## Model Scopes
 
 | Scopes                           | Description                                                                                      |
