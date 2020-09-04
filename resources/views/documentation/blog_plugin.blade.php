@@ -197,12 +197,12 @@
                         [
                             'text' => 'Posts',
                             'icon' => 'fas fa-file',
-                            'url' => 'admin/post',
+                            'url' => 'admin/blog/post',
                         ],
                         [
                             'text' => 'Categories',
                             'icon' => 'fas fa-bezier-curve',
-                            'url' => 'admin/category',
+                            'url' => 'admin/blog/category',
                         ]
                         ]
                 ],
