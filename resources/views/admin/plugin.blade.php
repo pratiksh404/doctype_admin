@@ -11,5 +11,6 @@
     @include('documentation.blog_plugin')
     @include('documentation.setting_plugin')
     @include('documentation.landing_plugin')
+    @include('documentation.website_plugin')
 </div>
 @stop
