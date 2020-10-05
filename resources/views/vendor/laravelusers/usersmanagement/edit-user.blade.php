@@ -39,7 +39,7 @@
                                 @endif
                                 {!! trans('laravelusers::laravelusers.buttons.back-to-users') !!}
                             </a>
-                            <a href="{{ url('users/' . $user->id) }}" class="btn btn-light btn-sm float-right"
+                            <a href="{{ url('/users/' . $user->id) }}" class="btn btn-light btn-sm float-right"
                                 data-toggle="tooltip" data-placement="left"
                                 title="{!! trans('laravelusers::laravelusers.tooltips.back-user') !!}">
                                 @if(config('laravelusers.fontAwesomeEnabled'))
@@ -209,19 +209,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-6 mb-2">
-                            <a href="#" class="btn btn-outline-secondary btn-block btn-change-pw mt-3"
-                                title="{!! trans('laravelusers::forms.change-pw') !!}">
-                                <i class="fa fa-fw fa-lock" aria-hidden="true"></i>
-                                <span></span> {!! trans('laravelusers::forms.change-pw') !!}
-                            </a>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            {!! Form::button(trans('laravelusers::forms.save-changes'), array('class' => 'btn
-                            btn-success btn-block margin-bottom-1 mt-3 mb-2 btn-save','type' => 'button', 'data-toggle'
-                            => 'modal', 'data-target' => '#confirmSave', 'data-title' =>
-                            trans('laravelusers::modals.edit_user__modal_text_confirm_title'), 'data-message' =>
-                            trans('laravelusers::modals.edit_user__modal_text_confirm_message'))) !!}
+                        <div class="col-12">
+                            <input type="submit" class="btn btn-success btn-block margin-bottom-1 mt-3 mb-2 btn-save"
+                                value="Save Changes">
                         </div>
                     </div>
                     {!! Form::close() !!}

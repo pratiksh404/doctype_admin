@@ -19,7 +19,7 @@
             <div class="modal-footer">
                 {!! Form::button('<i class="fa fa-fw '.trans('laravelusers::modals.confirm_modal_button_cancel_icon').'"
                     aria-hidden="true"></i> ' . trans('laravelusers::modals.confirm_modal_button_cancel_text'),
-                array('class' => 'btn btn-outline pull-left btn-flat', 'type' => 'submit', 'data-dismiss' => 'modal' ))
+                array('class' => 'btn btn-outline pull-left btn-flat', 'type' => 'button', 'data-dismiss' => 'modal' ))
                 !!}
                 {!! Form::button('<i class="fa fa-fw '.trans('laravelusers::modals.confirm_modal_button_save_icon').'"
                     aria-hidden="true"></i> ' . trans('laravelusers::modals.confirm_modal_button_save_text'),

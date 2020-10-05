@@ -986,16 +986,16 @@
         },
         {
             "name": "jeremykenedy/laravel-roles",
-            "version": "v3.2.1",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeremykenedy/laravel-roles.git",
-                "reference": "8b2cae140998d4baf66373c9cd5c6d7cf6143b1a"
+                "reference": "3398a62f75283cb7015237e39377513cc7e6a11e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeremykenedy/laravel-roles/zipball/8b2cae140998d4baf66373c9cd5c6d7cf6143b1a",
-                "reference": "8b2cae140998d4baf66373c9cd5c6d7cf6143b1a",
+                "url": "https://api.github.com/repos/jeremykenedy/laravel-roles/zipball/3398a62f75283cb7015237e39377513cc7e6a11e",
+                "reference": "3398a62f75283cb7015237e39377513cc7e6a11e",
                 "shasum": ""
             },
             "require": {
@@ -1058,24 +1058,24 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-05-30T22:34:23+00:00"
+            "time": "2020-08-04T17:59:10+00:00"
         },
         {
             "name": "jeremykenedy/laravel-users",
-            "version": "v4.1.3",
+            "version": "v4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeremykenedy/laravel-users.git",
-                "reference": "37f0ead37320771a4ac4b05b082f06f7634123aa"
+                "reference": "f2373f5f3d962c0042a80fdaf1933b54afbaeccb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeremykenedy/laravel-users/zipball/37f0ead37320771a4ac4b05b082f06f7634123aa",
-                "reference": "37f0ead37320771a4ac4b05b082f06f7634123aa",
+                "url": "https://api.github.com/repos/jeremykenedy/laravel-users/zipball/f2373f5f3d962c0042a80fdaf1933b54afbaeccb",
+                "reference": "f2373f5f3d962c0042a80fdaf1933b54afbaeccb",
                 "shasum": ""
             },
             "require": {
-                "laravelcollective/html": "^5.4|^5.5|^5.6|^5.7|^5.8|^6.0|^7.0",
+                "laravelcollective/html": "^5.4|^5.5|^5.6|^5.7|^5.8|^6.0|^7.0|^8.0",
                 "php": ">=7.1.3"
             },
             "require-dev": {
@@ -1114,7 +1114,17 @@
                 "laravel",
                 "management"
             ],
-            "time": "2020-05-22T18:22:43+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/jeremykenedy",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/jeremykenedy",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-09-21T20:14:58+00:00"
         },
         {
             "name": "jeroennoten/laravel-adminlte",
