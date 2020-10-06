@@ -23,7 +23,7 @@ class UsersTableSeeder extends Seeder
             $newUser = config('roles.models.defaultUser')::create([
                 'name'     => 'Admin',
                 'email'    => 'admin@admin.com',
-                'password' => 'admin123',
+                'password' => Hash::make('admin123'),
             ]);
 
             $newUser->attachRole($adminRole);
@@ -36,7 +36,7 @@ class UsersTableSeeder extends Seeder
             $newUser = config('roles.models.defaultUser')::create([
                 'name'     => 'User',
                 'email'    => 'user@user.com',
-                'password' => 'user123',
+                'password' => Hash::make('user123'),
             ]);
 
             $newUser;
